@@ -5,6 +5,6 @@ Simple AJAX chat application written in PHP and Javascript with jQuery and Boots
 Demo:
 [http://netreal.de/](http://netreal.de/ajaxchat)
 
-Upload files, that's all
-
+Upload files, that's all!
+Open two browser windows and write.
 Have fun

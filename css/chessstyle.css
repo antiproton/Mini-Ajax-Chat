@@ -1,0 +1,211 @@
+/*!
+ * Dr. R. Urban
+ *
+ * 
+ * 
+ * 
+ *
+ * Date: 23.2.18
+ */
+
+.highlight-white {
+  -webkit-box-shadow: inset 0 0 3px 3px yellow;
+  -moz-box-shadow: inset 0 0 3px 3px yellow;
+  box-shadow: inset 0 0 3px 3px yellow;  
+}
+.highlight-black {
+  -webkit-box-shadow: inset 0 0 3px 3px blue;
+  -moz-box-shadow: inset 0 0 3px 3px blue;
+  box-shadow: inset 0 0 3px 3px blue;  
+}
+
+#box1 {
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+
+#uhr {
+	width: 100px;
+    border: 1px solid gray;
+    padding:  0em 0em;
+    border-radius: 6px;
+    background-color:black;
+    font-size: 24px;
+    color: lightgreen; 
+    text-align: center;
+    line-height: 1;
+    box-shadow: 2px 2px;
+    // box-shadow: 5px 10px 8px #888888;
+      float: right;
+    
+}
+#spieler {
+	width: 280px;
+    border: 1px solid gray;
+     background-color:black;
+    padding:  0em 0em;
+    border-radius: 6px;  
+    font-size: 24px;
+    color: orange;  
+    text-align: center;
+    line-height: 1;
+    box-shadow: 2px 2px;
+    // box-shadow: 5px 10px 8px #888888;
+      float: left;
+    
+}
+#pgn {
+	width:450px;
+	height: 150px;
+    border: 1px solid gray;
+     background-color:black;
+    padding:  0em 0em;
+    border-radius: 6px;  
+    font-size: 15px;
+    color: orange; 
+    text-align: left;
+    line-height: 1;
+    box-shadow: 2px 2px;
+    // box-shadow: 5px 10px 8px #888888;
+       float: right; 
+    overflow: scroll;
+}
+#fen {
+	width:450px;
+		height: 30px;
+    border: 1px solid gray;
+     background-color:black;
+    padding:  0em 0em;
+    border-radius: 6px;  
+    font-size: 14px;
+    color: orange;  
+    text-align: left;
+    line-height: 1;
+    box-shadow: 2px 2px;
+    // box-shadow: 5px 10px 8px #888888;
+    float: right; 
+}
+#status {
+	width:450px;
+	height: 25px;
+    border: 1px solid gray;
+     background-color:black;
+    padding:  0em 0em;
+    border-radius: 6px;  
+    font-size: 15px;
+    color: orange;  
+    text-align: left;
+    line-height: 1;
+    box-shadow: 2px 2px;
+    float: right; 
+ 
+  
+  
+     }
+#opponent {
+	width:450px;
+	height: 100px;
+    border: 1px solid gray;
+    padding:  0em 0em;
+    border-radius: 6px;
+    background-color:black;
+    font-size: 15px;
+    color: orange; 
+    text-align: center;
+    line-height: 1;
+    box-shadow: 2px 2px; 
+     float: right;  
+}
+.modal_2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: blue; /* Fallback color */
+    background-color: rgba(1,2,0,0.4); /* Black w/ opacity */
+}
+.modal-header_2 {
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+}
+
+/* The Close Button */
+.close_2 {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close_2:hover,
+.close_2:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: red; /* Fallback color */
+    background-color: rgba(1,2,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: red;
+    color: white;
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {background-color: lightgrey;}
+
+
+
+
+ table, tr, td {
+        border:0px #000 solid;
+    }
+
+#hideme {display: none;}
